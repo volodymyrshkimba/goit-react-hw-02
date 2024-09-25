@@ -41,7 +41,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("saved-feedbacks", JSON.stringify(feedbacks));
-  });
+  }, [feedbacks]);
 
   return (
     <>

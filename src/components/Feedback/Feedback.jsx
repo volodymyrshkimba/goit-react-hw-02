@@ -1,12 +1,12 @@
 function Feedback({ values, total, positive }) {
   return (
-    <div>
-      <p>Good: {values.good}</p>
-      <p>Neutral: {values.neutral}</p>
-      <p>Bad: {values.bad}</p>
-      <p>Total: {total}</p>
-      <p>Positive: {positive}%</p>
-    </div>
+    <ul>
+      <li>Good: {values.good}</li>
+      <li>Neutral: {values.neutral}</li>
+      <li>Bad: {values.bad}</li>
+      <li>Total: {total}</li>
+      <li>Positive: {positive}%</li>
+    </ul>
   );
 }
 

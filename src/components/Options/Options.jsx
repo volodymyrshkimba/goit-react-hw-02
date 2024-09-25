@@ -1,6 +1,8 @@
+import css from "./Options.module.css";
+
 function Options({ onUpdate, onReset, total }) {
   return (
-    <div>
+    <div className={css.options}>
       <button
         onClick={() => {
           onUpdate("good");

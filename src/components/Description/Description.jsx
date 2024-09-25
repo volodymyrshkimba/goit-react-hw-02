@@ -1,12 +1,14 @@
+import css from "./Description.module.css";
+
 function Description() {
   return (
-    <>
-      <h1>Sip Happens Café</h1>
+    <div className={css.description}>
+      <h1 className={css.title}>Sip Happens Café</h1>
       <p>
         Please leave your feedback about our service by selecting one of the
         options below.
       </p>
-    </>
+    </div>
   );
 }
 

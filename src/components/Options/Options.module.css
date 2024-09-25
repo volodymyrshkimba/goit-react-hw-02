@@ -1,0 +1,7 @@
+.options {
+  margin-bottom: 20px;
+}
+
+.options button:not(:last-child) {
+  margin-right: 5px;
+}
